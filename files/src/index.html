@@ -7,8 +7,6 @@
     <meta name="Description" content="Learning sth about css animations">
     <meta name="Keywords" content="CSS, Animations, HTML">
     <link rel="stylesheet" href="../styles/stylesheet.css" type="text/css">
-    <link rel="stylesheet" href="../styles/footer.css" type="text/css">
-    <link rel="stylesheet" href="../styles/header.css" type="text/css">
     <title>CSS animations</title>
     <script type="text/javascript">
         
@@ -19,7 +17,9 @@
         <div class="header">
             <header id="header-content">
                 <h1 class="header-inline">Testing CSS Animations</h1>
-                <p class="header-inline header-gap">Jedrzej's page</p>
+                <a href="#content" class="header-inline header-gap">
+                    Jedrzej's page
+                </a>
                 <a href="#about" class="header-inline header-gap">
                     About us
                 </a>
@@ -29,13 +29,44 @@
             </header>
         </div>
 
-       <div class="content" id="content">
-            <script>
-                for(let i=1; i <= 100; i++) {
-                    document.write(`${i}<br>`)
-                }
-            </script>
-       </div>
+        <div class="content" id="content">
+            <div class="content-header">
+                <h1>Simple css animations</h1>
+                <p class="light">In this page I want to try out some CSS animations and effects.</p>
+                <img id="img-css" src="../images/css.jpg">
+            </div>
+
+            <div class="content-list">
+                <div id="content-effect-1">
+                    <h2 class="light">Effect 1. - Hover transition effect </h2>
+                    <p class="thin effect-1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu leo at magna pretium gravida. Maecenas feugiat ex vel ex consectetur, vitae sodales ligula dignissim. Donec congue, libero vitae semper ullamcorper, augue massa rhoncus turpis, quis pharetra enim massa ac sem. Vivamus scelerisque dignissim massa ut malesuada. Nulla sit amet accumsan lacus. Donec porttitor quam sit amet felis scelerisque, id faucibus diam vestibulum. Quisque at facilisis ligula. Cras erat metus, posuere in efficitur et, molestie at nulla. In malesuada turpis tincidunt tellus pretium, at imperdiet erat venenatis. Cras ac ipsum sit amet arcu vestibulum efficitur. Ut sapien tellus, pellentesque fermentum sapien vel, gravida volutpat nisi. Nulla tincidunt pulvinar odio, id commodo justo tempus fermentum. Cras tincidunt lacus eu finibus tincidunt. 
+                    </p>
+                </div>
+
+                <div id="content-effect-2">
+                    <a href="#content">
+                        Some hrefs
+                    </a>
+                    <a href="#content">
+                        Some hrefs
+                    </a>
+                    <a href="#content">
+                        Some hrefs
+                    </a>
+                </div>
+
+                <div id="content-effect-3">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+        </div>
+
+        <div class="contact" id="contact">
+        </div>
 
        <div class="footer">
         <footer>

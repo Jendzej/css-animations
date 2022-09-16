@@ -1,6 +1,19 @@
+/* Importing all stylesheets */
+
+@import url("content.css");
+@import url("effects.css");
+@import url("footer.css");
+@import url("header.css");
+@import url("images.css");
+
+/* Fonts and fonts styles declaration */
 @font-face {
     font-family: YanoneRegular;
     src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Regular.ttf");
+}
+
+.regular {
+    font-family: YanoneRegular;
 }
 
 @font-face {
@@ -8,9 +21,17 @@
     src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Bold.ttf");
 }
 
+.bold {
+    font-family: YanoneBold;
+}
+
 @font-face {
     font-family: YanoneLight;
     src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Light.ttf");
+}
+
+.light {
+    font-family: YanoneLight;
 }
 
 @font-face {
@@ -18,7 +39,13 @@
     src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Thin.ttf");
 }
 
-html {
+.thin {
+    font-family: YanoneThin;
+}
+
+/* General styles */
+
+* {
     font-family: YanoneRegular;
 }
 
