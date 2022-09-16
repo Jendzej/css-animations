@@ -1,0 +1,10 @@
+.footer {
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-about, .footer-contact, .footer-name {
+    padding: 0px;
+    margin: 4px;
+    font-family: YanoneThin;
+}

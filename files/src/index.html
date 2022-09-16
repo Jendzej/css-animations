@@ -6,10 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Learning sth about css animations">
     <meta name="Keywords" content="CSS, Animations, HTML">
-    <link rel="stylesheet" href="../styles/stylesheet.css" >
+    <link rel="stylesheet" href="../styles/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="../styles/footer.css" type="text/css">
+    <link rel="stylesheet" href="../styles/header.css" type="text/css">
     <title>CSS animations</title>
 </head>
 <body>
-    <h1>Test</h1>
+    <div id="root">
+        <div class="header">
+            <header id="header-content">
+                <h1 class="header-inline">Testing CSS Animations</h1>
+                <p class="header-inline">tesdt</p>
+            </header>
+        </div>
+
+       <div class="content">
+            <script>
+                for(let i=1; i <= 1000; i++) {
+                    document.write(`${i}<br>`)
+                }
+            </script>
+       </div>
+
+       <div class="footer">
+        <footer>
+            <p class="footer-about">About us</p>
+            <p class="footer-contact">Contact</p>
+            <p class="footer-name">Name</p>
+        </footer>
+       </div>
+    </div>
 </body>
 </html>

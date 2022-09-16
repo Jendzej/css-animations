@@ -1,0 +1,28 @@
+@font-face {
+    font-family: YanoneRegular;
+    src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Regular.ttf");
+}
+
+@font-face {
+    font-family: YanoneBold;
+    src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Bold.ttf");
+}
+
+@font-face {
+    font-family: YanoneLight;
+    src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Light.ttf");
+}
+
+@font-face {
+    font-family: YanoneThin;
+    src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Thin.ttf");
+}
+
+html {
+    font-family: YanoneRegular;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
