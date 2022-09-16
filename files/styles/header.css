@@ -1,9 +1,24 @@
 .header {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: sticky;
     top: 0;
     padding: 1px 10px;
 }
+
 .header-inline {
     display: inline;
+}
+
+a.header-inline {
+    text-decoration: none;
+    color: black;
+}
+
+a.header-inline:active {
+    text-decoration: none;
+    color: rgb(114, 114, 114)
+}
+
+.header-gap {
+    padding-left: 30px;
 }
